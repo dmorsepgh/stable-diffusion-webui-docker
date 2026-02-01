@@ -28,6 +28,7 @@ RUN --mount=type=cache,target=/var/cache/apt \
 
 WORKDIR /
 RUN --mount=type=cache,target=/root/.cache/pip \
+  pip install --upgrade typing_extensions>=4.6.0 && \
   git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git && \
   cd stable-diffusion-webui && \
   git reset --hard v1.9.4 && \
