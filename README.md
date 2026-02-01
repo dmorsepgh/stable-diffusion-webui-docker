@@ -1,4 +1,10 @@
-# Stable Diffusion WebUI Docker
+# Stable Diffusion WebUI Docker (FIXED VERSION)
+
+🎯 **This is a working, fixed fork** of the original [stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker).
+
+**What's Fixed:** The original project was abandoned with critical TypeIs import errors that prevented Docker builds from succeeding. This fork fixes those issues. **[See all fixes →](FIXES.md)**
+
+---
 
 Run Stable Diffusion on your machine with a nice UI without any hassle!
 
